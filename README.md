@@ -13,7 +13,7 @@ Here are the recommended steps to create a virtual environment and install the r
 
 *virtual environment*
 
-conda create -n rlkit python=3.6
+conda create -n ACCAR python=3.6
 
 *OPenAI Gym*
 
@@ -33,7 +33,7 @@ pip3 install https://github.com/lief-project/LIEF/releases/download/0.7.0/linux_
 
 *UPX for file compression*
 
-chmod +wrx /rlkit/torch/gym_malware/envs/controls/UPX/upx
+chmod +wrx /accar/torch/gym_malware/envs/controls/UPX/upx
 
 Note: Some absolute paths of files may need to be changed to your local file system.
 
@@ -43,7 +43,7 @@ The data was obtained from VirusTotal and cannot be shared in a public repositor
 
 "/gym-malware/gym_malware/envs/utils/samples".
 
-The generated adversarial samples will be stored in "RADAR/gym-malware/evaded/blackbox."
+The generated adversarial samples will be stored in "/gym-malware/evaded/blackbox."
 
 ## Malware Detector Models
 
@@ -51,6 +51,6 @@ Pretrained MalConv, NoNeg and Ember LightGBM malware detector models are include
 
 ## Execution
 
-To conduct attack emulation, run "/rlkit/torch/sac/virel_exp_Gumbel.py."
+Run "/accar/Src/run.py."
 
-And to enhance adversarial robustness of a specific model run "/rlkit/hardening.py."
+
