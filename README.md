@@ -6,7 +6,7 @@ This document summarizes the installation instructions and steps for developing 
 
 ## Acknowledgement
 
-***Installation Guide***
+## Installation Guide
 
 Here are the recommended steps to create a virtual environment and install the requirements.
 
@@ -36,7 +36,7 @@ chmod +wrx /rlkit/torch/gym_malware/envs/controls/UPX/upx
 
 Note: Some absolute paths of files may need to be changed to your local file system.
 
-***Data***
+## Data
 
 The data was obtained from VirusTotal and cannot be shared in a public repository. However, RADAR operates on any Windows malware files. To give your malware data as seeds to generate adversarial variants and enhance defense, simply copy your malware files into the below location:
 
@@ -44,11 +44,11 @@ The data was obtained from VirusTotal and cannot be shared in a public repositor
 
 The generated adversarial samples will be stored in "RADAR/gym-malware/evaded/blackbox."
 
-***Malware Detector Models***
+## Malware Detector Models
 
 Pretrained MalConv, NoNeg and Ember LightGBM malware detector models are included in the code at RADAR/gym-malware/gym_malware/envs/utils under malconv.checkpoint, nonneg.checkpoint, and gradient_boosting.pkl.
 
-***Execution***
+## Execution
 
 To conduct attack emulation, run "RADAR/rlkit/torch/sac/virel_exp_Gumbel.py."
 
