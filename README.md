@@ -11,27 +11,27 @@ We are grateful to Yash Chandak from the University of Massachusetts for the hel
 
 Here are the recommended steps to create a virtual environment and install the requirements.
 
-*virtual environment*
+**virtual environment**
 
 conda create -n ACCAR python=3.6
 
-*OPenAI Gym*
+**OPenAI Gym**
 
 pip3 install gym==0.9.2
 
-*PyTorch (Having a GPU is Not necessary - the code can work on both CPU and GPU)*
+**PyTorch (Having a GPU is Not necessary - the code can work on both CPU and GPU)**
 
 conda install pytorch==1.7.0 cpuonly -c pytorch
 
-*scikit-learn*
+**scikit-learn**
 
 pip3 install scikit-learn==0.18.2
 
-*LIEF*
+**LIEF**
 
 pip3 install https://github.com/lief-project/LIEF/releases/download/0.7.0/linux_lief-0.7.0_py3.6.tar.gz
 
-*UPX for file compression*
+**UPX for file compression**
 
 chmod +wrx /accar/torch/gym_malware/envs/controls/UPX/upx
 
