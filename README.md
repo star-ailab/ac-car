@@ -41,7 +41,7 @@ Note: Some absolute paths of files may need to be changed to your local file sys
 
 The data was obtained from VirusTotal and cannot be shared in a public repository. However, RADAR operates on any Windows malware files. To give your malware data as seeds to generate adversarial variants and enhance defense, simply copy your malware files into the below location:
 
-"RADAR/gym-malware/gym_malware/envs/utils/samples".
+"/gym-malware/gym_malware/envs/utils/samples".
 
 The generated adversarial samples will be stored in "RADAR/gym-malware/evaded/blackbox."
 
@@ -51,6 +51,6 @@ Pretrained MalConv, NoNeg and Ember LightGBM malware detector models are include
 
 ## Execution
 
-To conduct attack emulation, run "RADAR/rlkit/torch/sac/virel_exp_Gumbel.py."
+To conduct attack emulation, run "/rlkit/torch/sac/virel_exp_Gumbel.py."
 
-And to enhance adversarial robustness of a specific model run "RADAR/rlkit/hardening.py."
+And to enhance adversarial robustness of a specific model run "/rlkit/hardening.py."
