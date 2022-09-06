@@ -2,7 +2,7 @@
 
 Requirements: PyTorch 1.7.0, Python 3.6
 
-This document summarizes the installation instructions and steps for developing defense against adversarial malware variants via sequential decision making named AC-CAR in PyTorch. The code uses two open-source repositories: The OpenAI Gym (https://github.com/openai/gym) as the reinforcement learning infrastructure, and an extended version of malware_env (https://github.com/endgameinc/gym-malware) which is based on OpenAI's Gym RL environment. For binary executable manipulations the code leverages lief libraray (https://github.com/lief-project/LIEF).
+This document summarizes the installation instructions and steps for developing defense against adversarial malware variants via sequential decision making named AC-CAR in PyTorch. The code extends three open-source repositories: (1) A modified version of Transformers library (https://huggingface.co/docs/transformers/installation), whcih includes GPT lanugage model and corresponding operations (2) the OpenAI Gym (https://github.com/openai/gym) as the reinforcement learning infrastructure, and (3) an extended version of malware_env (https://github.com/endgameinc/gym-malware), which is based on OpenAI's Gym RL environment. For binary executable manipulations the code leverages lief libraray (https://github.com/lief-project/LIEF).
 
 ## Acknowledgement
 We are grateful to Yash Chandak from the University of Massachusetts for the helpful discussion and sharing the implementation of [their work](https://proceedings.mlr.press/v97/chandak19a.html) with us.
