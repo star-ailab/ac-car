@@ -4,7 +4,7 @@ Requirements: PyTorch 1.7.0, Python 3.6
 
 This document summarizes the installation instructions and steps for developing defense against adversarial malware variants via RADAR in PyTorch. The code leverages two open-source repositories: The rlkit (https://github.com/rail-berkeley/rlkit) as the reinforcement learning infrastructure, and an extended version of malware_env (https://github.com/endgameinc/gym-malware) which is based on OpenAI's Gym RL environment. For binary executable manipulations the code uses lief libraray (https://github.com/lief-project/LIEF).
 
-***Acknowledgement***
+##Acknowledgement
 
 ***Installation Guide***
 
