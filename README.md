@@ -17,32 +17,32 @@ Here are the recommended steps to create a virtual environment and install the r
 
 **OPenAI Gym**
 
-  pip3 install gym==0.9.2
+        pip3 install gym==0.9.2
 
 **PyTorch (Having a GPU is Not necessary - the code can work on both CPU and GPU)**
 
-conda install pytorch==1.7.0 cpuonly -c pytorch
+        conda install pytorch==1.7.0 cpuonly -c pytorch
 
 **scikit-learn**
 
-pip3 install scikit-learn==0.18.2
+        pip3 install scikit-learn==0.18.2
 
 **LIEF**
 
-pip3 install https://github.com/lief-project/LIEF/releases/download/0.7.0/linux_lief-0.7.0_py3.6.tar.gz
+        pip3 install https://github.com/lief-project/LIEF/releases/download/0.7.0/linux_lief-0.7.0_py3.6.tar.gz
 
 **UPX for file compression**
 
-chmod +wrx /accar/torch/gym_malware/envs/controls/UPX/upx
+        chmod +wrx /accar/torch/gym_malware/envs/controls/UPX/upx
 
 Note: Some absolute paths of files may need to be changed to your local file system.
 
 ## Modified Transformers and GPT
 We modified the [Transformers](https://huggingface.co/docs/transformers/installation) code to incorporate the RL-Augmented Top-k Sampling. To install the modified version, please download and navigate to our transformers folder and install it as follows:
 
-cd transformers
+        cd transformers
 
-pip install -e .
+        pip install -e .
 
 A pre-trained GPT on benign executables resides under "/model_hex."
 
