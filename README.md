@@ -38,7 +38,7 @@ chmod +wrx /accar/torch/gym_malware/envs/controls/UPX/upx
 Note: Some absolute paths of files may need to be changed to your local file system.
 
 ## Modified Transformers and GPT
-We modified the Transformers code to incorporate the RL-Augmented Top-k Sampling. To install the modified version, please download and navigate to our transformers folder and install it as follows:
+We modified the [Transformers](https://huggingface.co/docs/transformers/installation) code to incorporate the RL-Augmented Top-k Sampling. To install the modified version, please download and navigate to our transformers folder and install it as follows:
 
 cd transformers
 
