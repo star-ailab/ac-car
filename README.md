@@ -41,6 +41,7 @@ Note: Some absolute paths of files may need to be changed to your local file sys
 We modified the Transformers code to incorporate the RL-Augmented Top-k Sampling. To install the modified version, please download and navigate to our transformers folder and install it as follows:
 
 cd transformers
+
 pip install -e .
 
 A pre-trained GPT on benign executables resides under "/model_hex."
