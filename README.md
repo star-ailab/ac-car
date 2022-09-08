@@ -13,11 +13,11 @@ Here are the recommended steps to create a virtual environment and install the r
 
 **virtual environment**
 
-conda create -n ACCAR python=3.6
+  conda create -n ACCAR python=3.6
 
 **OPenAI Gym**
 
-pip3 install gym==0.9.2
+  pip3 install gym==0.9.2
 
 **PyTorch (Having a GPU is Not necessary - the code can work on both CPU and GPU)**
 
