@@ -37,6 +37,15 @@ chmod +wrx /accar/torch/gym_malware/envs/controls/UPX/upx
 
 Note: Some absolute paths of files may need to be changed to your local file system.
 
+## Modified Transformers and GPT
+We modified the Transformers code to incorporate the RL-Augmented Top-k Sampling. To install the modified version, please download and navigate to our transformers folder and install it as follows:
+
+cd transformers
+pip install -e .
+
+A pre-trained GPT on benign executables resides under "/model_hex."
+
+
 ## Data
 
 The data was obtained from VirusTotal and cannot be shared in a public repository. However, AC-CAR operates on any Windows malware files. To give your malware data as seeds to generate adversarial variants and enhance defense, simply copy your malware files into the below location:
